@@ -1,0 +1,32 @@
+{
+  "name": "drizzle-to-python",
+  "version": "0.1.0",
+  "description": "Convert Drizzle ORM schemas to Python types",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "drizzle",
+    "orm",
+    "python",
+    "pydantic",
+    "typeddict",
+    "dataclass"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.0"
+  }
+}
